@@ -1,0 +1,136 @@
+{
+    "description": "Jestem absolwentem teleinformatyki na Politechnice Śląskiej oraz informatyki na Uniwersytecie Ekonomicznym w Katowicach. Od 6 lat rozwijam się w  zakresie języka C# oraz frameworka .NET, a od 4 lat  komercyjnie zajmuje się tworzeniem aplikacji w tych  technologiach. W pracy wykorzystuje także technologie  frontendowe takie jak AngularTS i Blazor oraz języki  bazodanowe SQL/T-SQL. Rozwijam również wiedzę z  zakresu metodyki DevOps, konteneryzacji Docker oraz  procesów CI/CD. W pracy wykorzystuje wzorce  projektowe i dbam o to aby tworzony przeze mnie kod  był zgodny z zasadami SOLID.",
+    "experience": [
+        {
+          "id": 1,
+          "name": "Programista Full-stack",
+          "place_date": "Euvic Gliwice| luty 2023 - obecnie",
+          "icon": "assets/icons/euvic.png",
+          "link": "https://www.euvic.com/pl/",
+          "responsibility": [
+            "Tworzenie oprogramowania wykorzystującego język C# oraz frameworków .NET 7, .NET5, .NET 1.0 oraz .NetFramework 4.6.1",
+            "Rozwój oraz utrzymanie frontendu aplikacji wykorzystujących AngularTs",
+            "Utrzymanie aplikacji wykorzystujących technologię Vue",
+            "Utrzymanie projektów napisanych w ASP.NET MVC Projektowanie oraz tworzenie interfejsów API aplikacji",
+            "Pisanie testów jednostkowych z wykorzystaniem nUnit",
+            "Analizowanie potrzeb klienta i rekomendowanie rozwiązań",
+            "Czynny udział w komunikacji z klientem biznesowym oraz udział w spotkaniach wdrożeniowych i meetingach związanych z bieżącą obsługą serwisową",
+            "Projektowanie oraz tworzenie bazy danych z wykorzystaniem SQL/T-SQL",
+            "Wdrażanie aplikacji z wykorzystaniem Microsoft TFS oraz oprogramowania Octopus",
+            "Czynny udział we wdrażaniach aplikacji na środowiska produkcyjne"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Programista Full-stack",
+          "place_date": "Comarch Katowice | lipiec 2020 - styczeń 2023",
+          "icon": "assets/icons/comarch.png",
+          "link": "https://www.comarch.pl/",
+          "responsibility": [
+            "Rozwój oraz utrzymanie aplikacji helpdeskowej służącej obsłudze zgłoszeń raportowanych przez użytkowników innych systemów firmy",
+            "Tworzenie backendu aplikacji w technologii .NET5 oraz frontendu aplikacji z wykorzystaniem Blazor WebAssembley",
+            "Udział w projektowaniu oraz wdrażaniu usprawnień w funkcjonalnościach systemu",
+            "Wdrażanie aplikacji wykorzystując usługi Windows IIS",
+            "Projektowanie interfejsu API aplikacji",
+            "Tworzenie oprogramowania z zachowaniem zasad CleanCode oraz stosowanie w projektach zasad CleanArchitecture"
+          ]
+        }
+      ],
+      "techstack": [
+        {
+          "id": 1,
+          "name": "C#",
+          "documentationLink": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+          "icon": "assets/icons/c-sharp.png"
+        },
+        {
+          "id": 2,
+          "name": "MsSQL",
+          "documentationLink": "https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16",
+          "icon": "assets/icons/mssql.png"
+        },
+        {
+          "id": 3,
+          "name": "JavaScript",
+          "documentationLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "icon": "assets/icons/js.png"
+        },
+        {
+          "id": 4,
+          "name": "TypeScript",
+          "documentationLink": "https://www.typescriptlang.org/docs/",
+          "icon": "assets/icons/ts.png"
+        },
+        {
+          "id": 5,
+          "name": "AngularTs",
+          "documentationLink": "https://angular.io/docs",
+          "icon": "assets/icons/angular.png"
+        },
+        {
+          "id": 6,
+          "name": "Git",
+          "documentationLink": "https://git-scm.com/doc",
+          "icon": "assets/icons/git.png"
+        },
+        {
+          "id": 7,
+          "name": "Blazor",
+          "documentationLink": "https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-7.0",
+          "icon": "assets/icons/blazor.png"
+        },
+        {
+          "id": 8,
+          "name": "Vue",
+          "documentationLink": "https://vuejs.org/guide/introduction.html",
+          "icon": "assets/icons/vue.png"
+        },
+        {
+          "id": 9,
+          "name": "Docker",
+          "documentationLink": "https://docs.docker.com/",
+          "icon": "assets/icons/docker.png"
+        },
+        {
+          "id": 10,
+          "name": "MercurialHG",
+          "documentationLink": "https://www.mercurial-scm.org/wiki/UsingMercurial",
+          "icon": "assets/icons/mercurial.png"
+        },
+        {
+          "id": 11,
+          "name": "PostgresSQL",
+          "documentationLink": "https://www.postgresql.org/docs/",
+          "icon": "assets/icons/postgressql.png"
+        },
+        {
+          "id": 12,
+          "name": "MongoDB",
+          "documentationLink": "https://www.mongodb.com/docs/",
+          "icon": "assets/icons/mongodb.png"
+        },
+        {
+          "id": 13,
+          "name": "Python",
+          "documentationLink": "https://docs.python.org/3/",
+          "icon": "assets/icons/python.png"
+        }
+      ],
+      "education" : [
+        {
+          "id": 1,
+          "university": "Politechnika Śląska",
+          "info": "Teleinformatyka – Inżynier | wrzesień 2017 - luty 2022",
+          "icon": "assets/icons/polsl.png",
+          "link": "https://www.polsl.pl/"
+        },
+        {
+          "id": 2,
+          "university": "Uniwersytet Ekonomiczny w Katowicach",
+          "info": "Informatyka – Magister | wrzesień 2022 - czerwiec 2024",
+          "icon": "assets/icons/uekat.png",
+          "link": "https://www.ue.katowice.pl/"
+        }
+      ],
+      "download_id": "1YaoOasfaxK83OYxcbJozYC6CzMaqUxm0"
+}

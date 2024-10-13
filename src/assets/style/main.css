@@ -1,0 +1,52 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+a,
+.grey {
+  text-decoration: none;
+  color: hsla(160, 11,3%, 68%);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+.radial-gradient {
+  position:fixed;
+  top:0px;
+  left:0px;
+  will-change: background-position;
+  transform: translateZ(0);
+  background-size: cover;
+  height:100%;
+  width:100%;
+  background: rgb(15 23 42);
+  background: 
+    radial-gradient(
+     at center, #153e5a, rgb(15 23 42)
+    );
+}
+
+.text-header {
+  font-size: 2.3rem;
+  font-weight: bolder;
+}
+.margin-top-60 {
+  margin-top:60px;
+}
