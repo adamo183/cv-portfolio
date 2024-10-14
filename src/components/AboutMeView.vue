@@ -9,7 +9,7 @@
       <li v-for="item in profile.experience" :key="item.id" class="user-item list-no-dot">
         <div class="float-right-maring-r">
             <a :href="item.link" target="_blank" rel="noopener noreferrer" class="img-transform">
-            <img :alt="item.university" :src="`/src/${item.icon}`" width="50" height="50" />
+            <img :alt="item.university" :src="`/${item.icon}`" width="50" height="50" />
           </a>
         </div>
         <div>
@@ -29,7 +29,7 @@
     <div class="image-grid width-30 margin-top-30 padding-left-30">
     <div v-for="item in profile.techstack" :key="item.id" >
       <a :href=item.documentationLink target="_blank" rel="noopener noreferrer">
-        <img alt={{item.name}}   :src="`/src/${item.icon}`" width="60" height="60" />
+        <img alt={{item.name}}   :src="`/${item.icon}`" width="60" height="60" />
       </a>
     </div>
     </div>
@@ -38,7 +38,7 @@
     <h1 class="text-header">Wykształcenie</h1>
     <li v-for="item in profile.education" :key="item.id" class="list-no-dot padding-left-30 margin-top-30">
       <a :href="item.link" target="_blank" rel="noopener noreferrer" class="img-transform">
-        <img :alt="item.university" :src="`/src/${item.icon}`" width="60" height="60" class="float-right-maring-r"/>
+        <img :alt="item.university" :src="`/${item.icon}`" width="60" height="60" class="float-right-maring-r"/>
       </a>
         <div class="margin-t--2">
           <p class="second-header">{{ item.university }}</p>
@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import profile_data from '../assets/data/cv_data.json'
+import profile_data from '../data/cv_data.json'
 
 export default {
   data() {

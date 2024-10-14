@@ -12,7 +12,7 @@ defineProps({
     <h3>
       Full-stack developer
     </h3>
-    <img alt="Profile picture" class="top-margin-5" src="@/assets/profile_cv.jpeg" width="216" height="310" />
+    <img alt="Profile picture" class="top-margin-5" src="/assets/profile_cv.jpeg" width="216" height="310" />
 
     <div class="nav-container">
       <ul class="nav-list color-white">
@@ -26,7 +26,7 @@ defineProps({
 </template>
 
 <script>
-import cv_data from '../assets/data/cv_data.json'
+import cv_data from '../data/cv_data.json'
 
 export default {
   methods: {
