@@ -14,7 +14,7 @@ jobs:
     steps:
         - uses: actions/checkout@v2
         - name: Deploy to Heroku
-          uses: adamo183/cv0heroku-deploy@v3.12.12 # This is the action
+          uses: akhileshns/heroku-deploy@v3.13.15 # This is the action
           with:
             # Name of the secret you have added in your repo
             heroku_api_key: ${{secrets.HEROKU_KEY}}
