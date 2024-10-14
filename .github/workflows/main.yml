@@ -1,0 +1,24 @@
+name: Deploy - Web
+
+# Action will be trigger manually (worflow_dispatch) or by pushing on main brach
+on:
+  push:
+    branches: 
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build-app:
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v2
+        - name: Deploy to Heroku
+          uses: adamo183/cv0heroku-deploy@v3.12.12 # This is the action
+          with:
+            # Name of the secret you have added in your repo
+            heroku_api_key: ${{secrets.HEROKU_KEY}}
+            heroku_app_name: cv-a-majerski
+            heroku_email: amajerski97@gmail.com
+            usedocker: true
+            appdir: path/to/your/Dockerfile/directory
