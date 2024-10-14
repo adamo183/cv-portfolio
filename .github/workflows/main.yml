@@ -21,4 +21,3 @@ jobs:
             heroku_app_name: cv-a-majerski
             heroku_email: amajerski97@gmail.com
             usedocker: true
-            appdir: path/to/your/Dockerfile/directory
