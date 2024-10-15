@@ -10,4 +10,4 @@ FROM nginx:stable-alpine as production-stage
 COPY --from=build-stage /app/dist /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 EXPOSE 8080
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["/bin/sh", "-c", "envsubst '$$PORT' < /etc/nginx/templates/default.conf.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"]
