@@ -26,18 +26,42 @@
 .flex-item-l {
   width: 35%;
   position: sticky;
-  top: 2%; /* Dostosowane do wysokości nawigacji */
+  top: 2%;
   align-self: flex-start;
-  z-index: 900; /* Mniejsze niż nawigacja */
-  background-color: inherit; /* Dziedziczy tło */
+  z-index: 900;
+  background-color: inherit;
 }
 
 .flex-item-r {
   width: 65%;
   padding-left: 20px;
-  position: relative; /* Przyjmuje względne pozycjonowanie */
-  z-index: 800; /* Mniejsze niż lewa kolumna */
-  overflow: hidden; /* Ukrywamy elementy wychodzące poza kolumnę */
+  position: relative;
+  z-index: 800;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .flex-item-l, .flex-item-r {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .flex-item-l {
+    position: relative;
+    top: auto;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .flex-item-r {
+    padding: 10px 0;
+  }
 }
 
 .menu-text {

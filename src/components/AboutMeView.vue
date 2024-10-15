@@ -133,7 +133,7 @@ export default {
 
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 1fr); /* 5 kolumn na większych ekranach */
   gap: 10px;
 }
 
@@ -144,6 +144,20 @@ export default {
 .image-grid img:hover {
   transform: scale(0.75);
 }
+
+/* Media queries dla mniejszych ekranów */
+@media (max-width: 1200px) {
+  .image-grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 kolumny na średnich ekranach */
+  }
+}
+
+@media (max-width: 576px) {
+  .image-grid {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
 
 a {
   text-decoration: none; 
